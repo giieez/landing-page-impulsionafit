@@ -1,0 +1,134 @@
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color:rgb(245, 221, 191);
+    color: black;
+    font-family: poppinsregular;
+}
+
+.page {
+    padding: 0 30rem;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title h1 {
+    font-family: poppinsbold;
+    font-size: 5rem;
+}
+
+#title span {
+    color:  rgb(153, 122, 81);
+}
+
+header ul {
+    display: flex;
+    list-style-type: none; 
+    gap: 5rem;
+}
+
+header ul li {
+    font-size: 2rem;
+}
+
+.foto img{
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50rem;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.conteudo {
+    width: 50rem ;
+}
+
+.conteudo h2 {
+    margin: 4rem 0;
+    font-size: 5rem;
+}
+
+.conteudo p {
+    margin: 4rem 0;
+    width: 100%;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.principal form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.principal form input {
+    border-radius: 2rem;
+    padding: 1.5rem;
+}
+
+button {
+    margin: 4rem 0;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color:rgb(209, 171, 122);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+a { 
+    text-decoration: none;
+    color: rgb(153, 122, 81);
+}
+
+a:hover {
+    color:black;
+    border: solid 3px;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.pessoas {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+    margin-top: 10rem;
+
+}
+
+.professor {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-end;
+    gap: 1rem;
+    width: 35rem;
+}
+
+.professor p {
+    text-align: justify;
+    width: 30rem;
+}
+
+.professor img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50rem;
+}
+
